@@ -60,8 +60,7 @@ SET(MISSION_APPLIST
          sch
          cfs_lib
          arducam
-         novatel_oem615
-         sample
+         patch
          )
 
 # either generic linux or nos3 linux depending on if building sim

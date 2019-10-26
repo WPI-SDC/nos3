@@ -55,7 +55,6 @@
 /* #include "mm_msgids.h"  */
 
 /* Components */
-#include "nav_msgids.h"
 
 /*************************************************************************
 **
@@ -220,7 +219,7 @@ SCH_MessageEntry_t SCH_DefaultMessageTable[SCH_MAX_MESSAGES] =
     /* command ID #36 */
   { { HTONS(SCH_UNUSED_MID) } },
     /* command ID #37 */
-  { { HTONS(NAV_CMD_REQ_NAV_SCH_MID), HTONS(0xC000), HTONS(0x0001), HTONS(0x0000) } },
+  { { HTONS(SCH_UNUSED_MID) } },
     /* command ID #38 */
   { { HTONS(SCH_UNUSED_MID) } },
     /* command ID #39 */

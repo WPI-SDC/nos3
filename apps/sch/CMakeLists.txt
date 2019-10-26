@@ -10,7 +10,7 @@ include_directories(${ci_lab_MISSION_DIR}/fsw/platform_inc
                     ${to_lab_MISSION_DIR}/fsw/platform_inc
                     ${hk_MISSION_DIR}/fsw/platform_inc
                     ${sc_MISSION_DIR}/fsw/platform_inc
-					          ${novatel_oem615_MISSION_DIR}/fsw/platform_inc)
+					${novatel_oem615_MISSION_DIR}/fsw/platform_inc)
 
 aux_source_directory(fsw/src APP_SRC_FILES)
 

@@ -62,7 +62,6 @@
 #include "imu_msgids.h"
 
 #include "sen_msgids.h"
-#include "nav_msgids.h"
 #include "eps_msgids.h"
  
 */
@@ -221,13 +220,10 @@ SCH_MessageEntry_t SCH_DefaultMessageTable[SCH_MAX_MESSAGES] =
 /*   { { HTONS(SEN_SEND_HK_MID),     HTONS(0xC000), HTONS(0x0001), HTONS(0x0000) } }, */
   { { HTONS(SCH_UNUSED_MID) } },
     /* command ID #34 */
-/*   { { HTONS(NAV_CMD_REQ_NAV_SCH_MID),  HTONS(0xC000), HTONS(0x0001), HTONS(0x0000) } }, */
   { { HTONS(SCH_UNUSED_MID) } },
     /* command ID #35 */
-/*   { { HTONS(EPS_SEND_HK_MID),     HTONS(0xC000), HTONS(0x0001), HTONS(0x0000) } }, */
   { { HTONS(SCH_UNUSED_MID) } },
     /* command ID #36 */
-/*   { { HTONS(SCH_UNUSED_MID) } }, */
   { { HTONS(SCH_UNUSED_MID) } },
     /* command ID #37 */
   { { HTONS(SCH_UNUSED_MID) } },

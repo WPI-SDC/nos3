@@ -84,6 +84,8 @@ int32 hwlib_Init(void)
     } 
 
     /* Initialize the NAV Lib */
+
+    /* DON'T initialize NAV_Lib - causes segfault
     status = NAV_LibInit();
     if (status == OS_SUCCESS)
     {
@@ -93,6 +95,7 @@ int32 hwlib_Init(void)
     {
         CFE_EVS_SendEvent(HWLIB_INIT_EID, CFE_EVS_ERROR, "NAV Lib HW Init ERROR = 0x%dx", status);
     }
+    */
 
     return OS_SUCCESS;
 }
