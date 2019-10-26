@@ -111,6 +111,7 @@
 #define OS_TIMER_ERR_TIMER_ID          (-30)
 #define OS_TIMER_ERR_UNAVAILABLE       (-31)
 #define OS_TIMER_ERR_INTERNAL          (-32)
+#define OS_ERR_MPROTECT                (-33)
 
 /*
 ** Defines for Queue Timeout parameters
@@ -133,6 +134,7 @@
 #include "osapi-os-net.h"
 #include "osapi-os-loader.h"
 #include "osapi-os-timer.h"
+#include "osapi-os-patch.h"
 
 /*
  ******************************************************************************

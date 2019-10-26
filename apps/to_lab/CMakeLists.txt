@@ -10,6 +10,8 @@ include_directories(${hk_MISSION_DIR}/fsw/platform_inc)
 include_directories(${arducam_MISSION_DIR}/fsw/platform_inc
 					          ${novatel_oem615_MISSION_DIR}/fsw/platform_inc)
 
+include_directories(${patch_MISSION_DIR}/fsw/platform_inc)
+
 aux_source_directory(fsw/src APP_SRC_FILES)
 
 # Create the app module
