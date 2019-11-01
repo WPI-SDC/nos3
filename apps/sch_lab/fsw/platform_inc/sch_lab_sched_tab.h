@@ -70,7 +70,9 @@ SCH_LAB_ScheduleTable_t SCH_LAB_ScheduleTable[SCH_LAB_MAX_SCHEDULE_ENTRIES] =
      
      { CI_LAB_SEND_HK_MID,   4, 0 },
      { TO_LAB_SEND_HK_MID,   4, 0 },
-     { SAMPLE_APP_SEND_HK_MID,   4, 0 },
+     
+     { SC_SEND_HK_MID,       4, 0 },
+     { SC_1HZ_WAKEUP_MID,    1, 0 },  /* Example of a 1hz packet */
 
 #if 0
      { SC_SEND_HK_MID,       4, 0 },

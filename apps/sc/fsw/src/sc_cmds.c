@@ -744,7 +744,7 @@ void SC_ProcessRequest (CFE_SB_MsgPtr_t CmdPacket)
             /*
              ** Time to execute a command in the SC memory
              */
-            
+
             do
             {
                 /*

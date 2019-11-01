@@ -296,8 +296,7 @@ SCH_ScheduleEntry_t SCH_DefaultScheduleTable[SCH_TABLE_ENTRIES] =
   {  SCH_UNUSED,   0,      0,  0, 0,  SCH_GROUP_NONE},                                        
 
   /* slot #26 */
-/*{  SCH_DISABLED, SCH_ACTIVITY_SEND_MSG,  1,  0, 25, SCH_GROUP_NONE }, */  /* SC Wakeup */
-  {  SCH_UNUSED,   0,      0,  0, 0,  SCH_GROUP_NONE},                                        
+  {  SCH_ENABLED, SCH_ACTIVITY_SEND_MSG,  1,  0, 21, SCH_GROUP_NONE },   /* SC Wakeup */
   {  SCH_UNUSED,   0,      0,  0, 0,  SCH_GROUP_NONE},                                        
   {  SCH_UNUSED,   0,      0,  0, 0,  SCH_GROUP_NONE},                                        
   {  SCH_UNUSED,   0,      0,  0, 0,  SCH_GROUP_NONE},                                        
@@ -430,7 +429,7 @@ SCH_ScheduleEntry_t SCH_DefaultScheduleTable[SCH_TABLE_ENTRIES] =
   {  SCH_UNUSED,   0,      0,  0, 0,  SCH_GROUP_NONE},                                        
 
   /* slot #44 */
-/*{  SCH_DISABLED, SCH_ACTIVITY_SEND_MSG,  4,  1, 14, SCH_GROUP_CFS_HK }, */  /* SC HK Request */
+  {  SCH_ENABLED, SCH_ACTIVITY_SEND_MSG,  4,  1, 14, SCH_GROUP_CFS_HK },   /* SC HK Request */
   {  SCH_UNUSED,   0,      0,  0, 0,  SCH_GROUP_NONE},                                        
   {  SCH_UNUSED,   0,      0,  0, 0,  SCH_GROUP_NONE},                                        
   {  SCH_UNUSED,   0,      0,  0, 0,  SCH_GROUP_NONE},                                        
