@@ -61,6 +61,8 @@ SET(MISSION_APPLIST
          cfs_lib
          arducam
          patch
+         sc
+         fm
          )
 
 # either generic linux or nos3 linux depending on if building sim

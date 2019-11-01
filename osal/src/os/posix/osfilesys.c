@@ -684,9 +684,9 @@ int32 OS_TranslatePath(const char *VirtualPath, char *LocalPath)
     */
     strncat(LocalPath, filename, (OS_MAX_LOCAL_PATH_LEN - NumChars));
 
-#ifdef OS_DEBUG_PRINTF
+//#ifdef OS_DEBUG_PRINTF
     printf("Result of TranslatePath = %s\n",LocalPath);
-#endif
+//#endif
 
     return OS_FS_SUCCESS;
     

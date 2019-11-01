@@ -45,7 +45,7 @@
 #include "ci_lab_msgids.h"
 #include "hk_msgids.h"
 #include "sch_msgids.h"
-/* #include "sc_msgids.h"  */
+#include "sc_msgids.h"
 /* #include "cs_msgids.h"  */
 /* #include "ds_msgids.h"  */
 /* #include "fm_msgids.h"  */
@@ -149,8 +149,7 @@ SCH_MessageEntry_t SCH_DefaultMessageTable[SCH_MAX_MESSAGES] =
 /*{ { HTONS(MM_SEND_HK_MID),  HTONS(0xC000), HTONS(0x0001), HTONS(0x0000) } }, */
   { { HTONS(SCH_UNUSED_MID) } },
     /* command ID #14 - Stored Command HK Request    */
-/*{ { HTONS(SC_SEND_HK_MID),  HTONS(0xC000), HTONS(0x0001), HTONS(0x0000) } }, */
-  { { HTONS(SCH_UNUSED_MID) } },
+  { { HTONS(SC_SEND_HK_MID),  HTONS(0xC000), HTONS(0x0001), HTONS(0x0000) } },
     /* command ID #15 - Scheduler HK Request         */
   { { HTONS(SCH_SEND_HK_MID), HTONS(0xC000), HTONS(0x0001), HTONS(0x0000) } },
 
@@ -173,8 +172,7 @@ SCH_MessageEntry_t SCH_DefaultMessageTable[SCH_MAX_MESSAGES] =
 /*{ { HTONS(CS_BACKGROUND_CYCLE_MID), HTONS(0xC000), HTONS(0x0001), HTONS(0x0000) } }, */
   { { HTONS(SCH_UNUSED_MID) } },
     /* command ID #21 - SC 1 Hz Wakeup                    */
-/*{ { HTONS(SC_1HZ_WAKEUP_MID),       HTONS(0xC000), HTONS(0x0001), HTONS(0x0000) } }, */
-  { { HTONS(SCH_UNUSED_MID) } },
+  { { HTONS(SC_1HZ_WAKEUP_MID),       HTONS(0xC000), HTONS(0x0001), HTONS(0x0000) } },
     /* command ID #22 - LC Sample Action Points           */
 /*{ { HTONS(LC_SAMPLE_AP_MID),        HTONS(0xC000), HTONS(0x0005), HTONS(0x0000), HTONS(LC_ALL_ACTIONPOINTS), HTONS(0x0000) } }, */
   { { HTONS(SCH_UNUSED_MID) } },

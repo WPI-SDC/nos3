@@ -188,7 +188,7 @@
 **       at run time, or the table fails validation, then the table load
 **       will fail.  Refer to #OS_MAX_PATH_LEN for filename length limits.
 */
-#define SC_ATS_FILE_NAME                "/cf/apps/sc_ats"
+#define SC_ATS_FILE_NAME                "/cf/sc_ats"
 
 
 /** \sccfg Append ATS Table Filename
@@ -205,7 +205,7 @@
 **       at run time, or the table fails validation, then the table load
 **       will fail.  Refer to #OS_MAX_PATH_LEN for filename length limits.
 */
-#define SC_APPEND_FILE_NAME             "/cf/apps/sc_append.tbl"
+#define SC_APPEND_FILE_NAME             "/cf/sc_append.tbl"
 
 
 /** \sccfg RTS Table Filenames 
@@ -224,7 +224,7 @@
 **       at run time, or the table fails validation, then the table load
 **       will fail.  Refer to #OS_MAX_PATH_LEN for filename length limits.
 */
-#define SC_RTS_FILE_NAME               "/cf/apps/sc_rts"
+#define SC_RTS_FILE_NAME               "/cf/sc_rts"
 
 
 /** \sccfg ATS Table Object Names 

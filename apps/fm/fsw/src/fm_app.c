@@ -127,8 +127,8 @@ FM_GlobalData_t  FM_GlobalData;
 /* FM application -- entry point and main loop processor           */
 /*                                                                 */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-void FM_AppMain(void)
+CFS_MODULE_DECLARE_APP(fm, 50, 4086);
+void fm_Main(void)
 {
     uint32 RunStatus = CFE_ES_APP_RUN;
     CFE_SB_MsgPtr_t MsgPtr;

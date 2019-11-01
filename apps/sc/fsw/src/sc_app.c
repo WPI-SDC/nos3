@@ -89,7 +89,7 @@
  **        None
  **
  *************************************************************************/
-void SC_AppMain (void);
+void sc_Main (void);
 
 /************************************************************************/
 /** \brief Initialize application
@@ -257,8 +257,8 @@ SC_OperData_t SC_OperData;        /* SC Operational Data */
 /*  SC main process loop (task entry point)                        */
 /*                                                                 */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-void SC_AppMain(void)
+CFS_MODULE_DECLARE_APP(sc, 10, 4086);
+void sc_Main(void)
 {   
     uint32 RunStatus = CFE_ES_APP_RUN;
     int32 Result;
